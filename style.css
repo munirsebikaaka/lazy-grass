@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f7f7f71c;
+}
+.hero {
+  background-image: linear-gradient(
+      rgba(121, 121, 121, 0.342),
+      rgba(139, 139, 139, 0.342)
+    ),
+    url(IMGs/img-1.jpg);
+  background-size: cover;
+}
+
+.hero-cell {
+  max-width: 90rem;
+  margin: 10rem auto;
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  padding: 0 3.8rem;
+  height: 100vh;
+}
+.hero-head {
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 2.4rem;
+  line-height: 1.3;
+}
+.hero-discription {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+.hero-sub-head {
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 2.4rem;
+}
+.hero-dis {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.links {
+  padding: 0.8rem 1.6rem;
+  border-radius: 1rem;
+  border: 1px solid #000;
+  background-color: rgba(212, 212, 212, 0);
+}
+.link-2 {
+  border: 2px solid #000;
+}
+.sub-hero {
+  max-width: 80rem;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3.8rem;
+  background-color: #ffff;
+  padding-bottom: 1.6rem;
+}
+.sub-head {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #001300;
+  text-transform: capitalize;
+  text-align: center;
+}
+.sub-hero-dis {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: orangered;
+  line-height: 1.2;
+  text-align: center;
+  line-height: 1.2;
+}
+.sub-hero-img {
+  width: 100%;
+  height: 45rem;
+  margin-top: 1.2rem;
+  border-radius: 11px;
+}
+
+.artificial {
+  max-width: 90rem;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0 4.4rem;
+}
+.artificial-head {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: rgb(0, 19, 0);
+  text-transform: capitalize;
+  text-align: center;
+}
+.artificial-dis {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: orangered;
+  line-height: 1.2;
+  text-align: center;
+  line-height: 1.2;
+}
+/* .artificial-cell {
+  max-width: 80rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+  justify-content: center;
+  gap: 1.6rem;
+} */
+
+.cell-icon {
+  display: flex;
+  justify-self: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding: 1rem 1.8rem;
+  border: 1px solid #00000041;
+  border-radius: 11px;
+  transition: all 0.3s;
+  margin-bottom: 1.6rem;
+}
+
+.cell-icon:hover {
+  background-color: #f14000;
+  border: 1px solid #f04000;
+  color: #ffff;
+}
+.main {
+  background-color: #ffbea7;
+  border: 1px solid #f54100;
+  color: #f04000;
+}
+.main:hover {
+  background-color: #ffbea7;
+  border: 1px solid #f54100;
+  color: #f04000;
+}
+.card1 {
+  max-width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  background-color: #dbffdb;
+  border-radius: 1.8rem;
+}
+.card-head,
+.card-dis2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #003f00;
+  margin-top: 2rem;
+}
+.card-price {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #001300;
+  /* margin-bottom: 0.4rem; */
+}
+.dis-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-card {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #003f00;
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+}
+.card-btn {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 11px;
+  background-color: #004200;
+  color: #ffff;
+  transition: all0.3s;
+  margin-top: 1.6rem;
+  margin-bottom: 2.8rem;
+}
+.card-btn:hover {
+  border: 1px solid #f14000;
+}
+.card1-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8;
+  border-bottom: 1px dashed #003f00;
+}
+.card2 {
+  max-width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  background-color: #ffd4c5;
+  border-radius: 1.8rem;
+  border: 1px solid #f54100;
+  margin-top: 2.4rem;
+}
+.card2-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8;
+  border-bottom: 1px dashed #003f00;
+}
+.card3-head {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f04000;
+  display: flex;
+  justify-self: center;
+  padding: 0.6rem 1.2rem;
+  border-radius: 11px;
+  /* margin-top: -2.4rem; */
+}
+.card3-cell {
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.client-main-cell {
+  padding: 3rem;
+}
+.clients-dis {
+  max-width: 35rem;
+  margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.075);
+  border-radius: 18px;
+  border: 1px solid #0000001a;
+}
+.clients-img2 {
+  width: 100%;
+  height: 35rem;
+}
+.client-cell {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 3.4rem;
+}
+.clients-img {
+  width: 8rem;
+  height: 8rem;
+}
+.main-client {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1.1px;
+  color: #001300;
+  margin-bottom: 2.4rem;
+}
+.clients-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #001300;
+  margin-bottom: 2.4rem;
+}
+.client-role {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f54100;
+}
+.clients-head {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #001300;
+  text-align: center;
+  padding: 3.2rem;
+  line-height: 1.5;
+}
+
+.last {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.last1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3.2rem;
+  background-color: #ddffdd;
+  margin-top: 4.4rem;
+}
+.last-head {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #001300;
+}
+.last-dis {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #001300;
+  text-align: center;
+}
+.last-info {
+  padding: 1rem 1.6rem;
+  border-radius: 11px;
+  border: 1px solid #00000036;
+}
+.infors {
+  border: 2px solid #000000;
+}
+.last2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 5rem;
+  background-color: #001f00;
+}
+.last2-dis {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.last2-head {
+  text-align: center;
+}
